@@ -13,7 +13,7 @@ public class Employee { // A common method to connect to the DB
 			Class.forName("com.mysql.jdbc.Driver");
 
 			// Provide the correct details: DBServer/DBName, username, password
-			con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3307/employee", "root", "");
+			con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/employee", "root", "");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
